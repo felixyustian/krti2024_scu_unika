@@ -1,0 +1,35 @@
+<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hexacopter Multi Camera Streaming Webpage</title>
+<p></p>
+<style>
+    .video-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; /* Center vertically */
+        margin: 10px;
+    }
+    .video {
+        width: 26%; /* Adjust as needed */
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+    <h1><center>Hexacopter Multi Camera Streaming Webpage</center></h1>
+    <center><b>VIDEO FEEDS ARE FROM THE HEXACOPTER CAMERAS - LEFT VIDEO IS THE FRONT VIEW CAMERA - RIGHT VIDEO IS THE BOTTOM VIEW CAMERA</b></center>
+    <div class="video-container">
+        <iframe class="video" width="500" height="500" src="http://192.168.1.17:8080/front_camera" title="Front View Camera" frameborder="0" allowfullscreen></iframe>
+        <iframe class="video" width="500" height="500" src="http://192.168.1.17:8081/bottom_camera" title="Bottom View Camera" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <center><b>ATTENTION !!! VIDEO FEEDS ARE DELAYED FOR AROUND 5 TO 10 SECONDS DUE TO THE COMPUTER PROCESSING POWER AND NETWORK CONNECTION BANDWIDTH, PLEASE BE ADVISED.</b></center> 
+    <h1><center>============================================================================================</center></h1>
+    <h1><center>(SIRI) Soegijapranata Aerial Robotic Team</center></h1>
+    <h1><center>Robotic and Mechatronic Research Group - Soegijapranata Catholic University</center></h1>
+    <h1><center>Semarang - Indonesia</center></h1>
+    <h1><center>2024</center></h1>
+</body>
+</html>
