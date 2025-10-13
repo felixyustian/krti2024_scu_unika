@@ -1,0 +1,1 @@
+A full program of the UAV (Unmanned Aerial Vehicle), specifically the hexarotor for the team SIRI of Soegijapranata Catholic University in Indonesian Aerial Robotic Contest (KRTI - Kontes Robot Terbang Indonesia) 2024.
