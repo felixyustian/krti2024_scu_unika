@@ -86,7 +86,7 @@ python3 krti_outdoor_program.py
 ### 3. Monitoring Video Feed
 To view the camera stream, open stream_video_webpage.html in a web browser connected to the drone's network, or access the stream URL defined in the Python script.
 
-📄 License
+## 📄 License
 This project is licensed under the GPL-3.0 License. See the LICENSE file for details.
 
 Soegijapranata Catholic University - Team SIRI Ad Maiorem Dei Gloriam
