@@ -76,8 +76,17 @@ Ensure the drone acts as a WiFi hotspot or is connected to the same network as y
 Execute the main program script. Ensure the Pixhawk is armed and in `GUIDED` mode if not handled automatically by the script.
 
 ```bash
-# For standard mission logic
+# For standard mission logic:
 python3 krti_full_program_ver2.py
 
-# For outdoor GPS-based missions
+# For outdoor GPS-based missions:
 python3 krti_outdoor_program.py
+```
+
+3. Monitoring Video Feed
+To view the camera stream, open stream_video_webpage.html in a web browser connected to the drone's network, or access the stream URL defined in the Python script.
+
+📄 License
+This project is licensed under the GPL-3.0 License. See the LICENSE file for details.
+
+Soegijapranata Catholic University - Team SIRI Ad Maiorem Dei Gloriam
